@@ -1,60 +1,152 @@
 <!--
 Requirements
-[  ] Two External Links
-[  ] Table
-[  ] Three CSS Rules
-[  ] Three Images
+[Yes] Two External Links
+[Yes] Table
+[Yes] Three CSS Rules
+[Yes] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include a :hover feature
 [ no ] Feature 2 - Include at least two Internal links
-[ no ] Feature 3 - Include a list in a tabl
+[Yes] Feature 3 - Include a list in a table
 [ no ] Feature 4 - Include at least two background images in a table
 -->
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Project: Recipe book</title>
+    <meta charset="utf-8" />
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid;
+      }
+      h1 {
+        color: rgb(250, 231, 201);
+      }
+      h2 {
+        color: rgb(255, 243, 199);
+      }
+      body {
+        color: rgb(225, 199, 143);
+      }
+      body {
+        background-color: rgb(112, 98, 51);
+      }
+    </style>
+  </head>
 
-<head>
-  <title>Project: Recipe book</title>
-  <meta charset="utf-8">
-  <style>
-  </style>
-</head>
+  <body>
+    <h1>Taina's Recipe Book</h1>
 
-<body>
+    <h2>Contents:</h2>
+    <ol>
+      <li>
+        <a href="https://plantbasedrdblog.com/2021/11/vegan-arroz-con-gandules/"
+          >Recipe #1</a
+        >
+      </li>
 
-  <h1>____'s Recipe Book</h1>
+      <li>
+        <a
+          href="https://www.eatcookexplore.com/dominican-sweet-potato-cake-pan-de-batata/"
+          >Recipe #2</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://sallysbakingaddiction.com/chewy-chocolate-chip-cookies/"
+          >Recipe #3</a
+        >
+      </li>
+    </ol>
 
-  <h2>Contents:</h2>
+    <h2 id="?">Recipe #1</h2>
 
-  <ol>
-    <li><a href="?">Recipe #1</a></li>
-  </ol>
+    <table>
+      <thead>
+        <tr>
+          <th>Meal</th>
+          <th>Ingredients</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Moro</td>
+          <td>
+            <ul>
+              <li>Onion</li>
+              <li>Oil</li>
+              <li>Chicken bouillon flavor</li>
+              <li>Pigion peas (gandules)</li>
+              <li>Water</li>
+              <li>Salt</li>
+              <li>Garlic</li>
+              <li>Rice</li>
+              <li>Sa-son accent</li>
+              <li>Cilantro</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Dominican sweet potato bread</td>
+          <td>
+            <ul>
+              <li>Butter</li>
+              <li>Salt</li>
+              <li>Cinnamon</li>
+              <li>Sweet potato</li>
+              <li>Condenced milk</li>
+              <li>Evaporated milk</li>
+              <li>White sugar</li>
+              <li>Vanilla extract</li>
+              <li>Ginger</li>
+              <li>Coconut</li>
+              <li>Egg</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Cookies</td>
+          <td>
+            <ul>
+              <li>Chocolate chips</li>
+              <li>Salt</li>
+              <li>Cornstartch</li>
+              <li>Baking soda</li>
+              <li>Melted butter</li>
+              <li>Brown sugar</li>
+              <li>White sugar</li>
+              <li>Vanilla extract</li>
+              <li>Flour</li>
+              <li>Egg yolk</li>
+              <li>Egg</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
 
-  <h2 id="?">Recipe #1</h2>
+    <img
+      src="https://plantbasedrdblog.com/wp-content/uploads/2021/11/arroz-con-guandules_feat.jpg"
+      alt="moro"
+      width="300"
+    />
+    <img
+      src="https://art.whisk.com/image/upload/fl_progressive,h_560,w_560,c_fill,dpr_2.0/v1606584854/recipe/d17e111168f905e90f311255fa88b0e6.jpg"
+      alt="moro"
+      width="300"
+    />
+    <img
+      src="https://www.foodandwine.com/thmb/4_UScMzHQCxZzACBITHHmT_EM3U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Chocolate-Chunk-Halwah-Cookies-FT-RECIPE0923-1f8df755df6d468da98887aa846a2fe3.jpg"
+      alt="moro"
+      width="300"
+    />
 
-  <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
-  </ul>
-
-  <table>
-    <thead>
-      <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
-
-  <p><strong>Step 1:</strong> Do something.
-  </p>
-
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
-
-</body>
-
+    <p>
+      <em>Source: <a href="?">Some recipes websites</a></em>
+    </p>
+  </body>
 </html>
